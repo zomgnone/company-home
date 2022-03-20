@@ -1,0 +1,47 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #77757526;
+  z-index: 100;
+}
+
+#header-content {
+  display: flex;
+  align-items: center;
+  padding: 1.875rem;
+}
+
+#header-content #logo {
+  flex: 1 1 0%;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+ul {
+  list-style: none;  
+}
+
+#hero {
+  position: relative;
+  top: 4.8125rem;
+  height: 43.75rem;
+  background-image: url('../images/hero_bg_scaled.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% 35%;
+}
+
+#hero-content {
+  height: 18.75rem;
+  width: 31.25rem;
+  margin: 8rem 8rem 0 0;
+  background-color: aquamarine;
+  float: right;
+}

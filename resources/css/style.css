@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'LDF Comic Sans';
+  src: url(../fonts/Ldfcomicsansbold-zgma.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -25,12 +44,7 @@ nav li {
 }
 
 ul {
-  list-style: none;  
-}
-
-main {
-  position: relative;
-  top: 4.8125rem;
+  list-style: none;
 }
 
 #hero {
@@ -41,23 +55,79 @@ main {
   background-position: 90% 35%;
 }
 
+#hero-logo {
+  float: left;
+  margin: 10rem 0 0 2rem;
+  font-family: "LDF Comic Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: red;
+}
+
 #hero-content {
-  height: 18.75rem;
-  width: 31.25rem;
-  margin: 8rem 8rem 0 0;
-  background-color: aquamarine;
+  /* height: 12.5rem; */
+  width: 34.375rem;
+  margin: 14rem 3rem 0 0;
+  background-color: #757b7a;
+  opacity: 0.5;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  padding: 0.5rem;
+  color: white;
   float: right;
+}
+
+#services h2 {
+  padding-top: 2rem;
+}
+
+#placeholder {
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.service span {
+  width: 300px;
+  padding-left: 1rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#people h2 {
+  padding-top: 2rem;
 }
 
 .people-container {
   display: flex;
-  justify-content: space-between;
-  padding: 2rem;
+  justify-content: center;
+  padding-top: 2rem;
 }
 
-.people-container .image-container {
-  text-align: center;
-  width: 90%;
-  height: 65%;
-  margin: 0 auto;
+#people .image-container {
+  padding: 0 8rem;
+}
+
+#people img {
+  width: 200px;
+  height: auto;
+}
+
+footer {
+  padding-left: 1rem;
 }

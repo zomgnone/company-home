@@ -2,15 +2,19 @@
   font-family: 'LDF Comic Sans';
   src: url(../fonts/Ldfcomicsansbold-zgma.ttf) format('truetype');
 }
-
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	background-color: lightgray;
 }
 
 h2 {
   font-size: 32px;
   font-weight: bold;
+}
+
+h3 {
+  font-size: 28px;
 }
 
 .center {
@@ -86,6 +90,9 @@ ul {
   width: 300px;
   height: 200px;
   border: 1px solid red;
+  background-color: yellow;
+  font-family: monospace;
+  text-align: center;
 }
 
 .services-container {
@@ -94,6 +101,8 @@ ul {
   align-items: center;
   flex-wrap: wrap;
   padding-top: 2rem;
+  background-image: url('../images/carnival.jpg');
+  background-size: cover;
 }
 
 .service {
@@ -107,6 +116,10 @@ ul {
   width: 300px;
   padding-left: 1rem;
   font-family: 'Titillium Web', sans-serif;
+  color: white;
+  background-color: #757b7a;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 #people h2 {
@@ -116,16 +129,45 @@ ul {
 .people-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding-top: 2rem;
+  min-height: 700px;
+  background-image: url('../images/street.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 80%;
 }
 
 #people .image-container {
-  padding: 0 8rem;
+	padding: 1rem;
+	margin: 1rem;
+	max-height: 500px;
+}
+
+#people .image-item {
+  display: flex;
+  flex-flow: column;
+  background-color: #757b7a;
 }
 
 #people img {
   width: 200px;
   height: auto;
+  margin: 2rem auto 0 auto;
+}
+
+.image-item .teammember-description {
+  color: white;
+  background-color: #757b7a;
+  width: 300px;
+}
+
+.teammember-description h3 {
+  padding-top: 0.25rem;
+}
+
+.teammember-description p {
+  padding-top: 0.5rem;
 }
 
 footer {

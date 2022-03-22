@@ -1,4 +1,4 @@
-/* TODO: replace placeholder images in Services section;
+/* TODO: add navigation anchors to nav items;
 TODO: add icons for header nav items;
 TODO: add breakpoints for tablets and mobile. */
 
@@ -90,13 +90,9 @@ ul {
   padding-top: 2rem;
 }
 
-#placeholder {
+.service img {
   width: 300px;
   height: 200px;
-  border: 1px solid red;
-  background-color: yellow;
-  font-family: monospace;
-  text-align: center;
 }
 
 .services-container {

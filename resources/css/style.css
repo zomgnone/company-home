@@ -1,5 +1,4 @@
-/* TODO: add icons for header nav items;
-TODO: add breakpoints for tablets and mobile. */
+/* TODO: add breakpoints for tablets and mobile. */
 
 @font-face {
   font-family: 'LDF Comic Sans';
@@ -35,7 +34,7 @@ header {
 #header-content {
   display: flex;
   align-items: center;
-  padding: 1.875rem;
+  padding: 1rem;
 }
 
 #header-content #logo {
@@ -56,6 +55,17 @@ ul {
 
 nav a:hover {
   text-shadow: 1px 1px 1px black;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+}
+
+
+.icon {
+  height: 48px;
+  padding-right: 0.5rem;
 }
 
 .anchor {

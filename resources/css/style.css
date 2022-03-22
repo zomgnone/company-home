@@ -3,6 +3,12 @@
   src: url(../fonts/Ldfcomicsansbold-zgma.ttf) format('truetype');
 }
 
+@media only screen and (max-width: 528px) {
+  html {
+    font-size: 12px;
+  }
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -64,12 +70,12 @@ nav li {
 
 
 .icon {
-  height: 48px;
+  height: 3rem;
   padding-right: 0.5rem;
 }
 
 .anchor {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 5rem;  /* fixes anchor links navigation */
 }
 
 .mobile {
@@ -128,7 +134,7 @@ nav li {
   background-color: #757b7a;
   opacity: 0.5;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   padding: 0.5rem;
   color: white;
   float: right;
@@ -247,4 +253,5 @@ nav li {
 
 footer {
   padding-left: 1rem;
+  font-size: 1rem;
 }

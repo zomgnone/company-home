@@ -1,5 +1,4 @@
-/* TODO: add navigation anchors to nav items;
-TODO: add icons for header nav items;
+/* TODO: add icons for header nav items;
 TODO: add breakpoints for tablets and mobile. */
 
 @font-face {
@@ -55,6 +54,14 @@ ul {
   list-style: none;
 }
 
+nav a:hover {
+  text-shadow: 1px 1px 1px black;
+}
+
+.anchor {
+  scroll-margin-top: 5rem;
+}
+
 #hero {
   height: 43.75rem;
   background-image: url('../images/hero_bg_scaled.jpg');
@@ -87,7 +94,7 @@ ul {
 }
 
 #services h2 {
-  padding-top: 2rem;
+  padding: 1rem 0;
 }
 
 .service img {
@@ -123,7 +130,7 @@ ul {
 }
 
 #people h2 {
-  padding-top: 2rem;
+  padding: 1rem 0;
 }
 
 .people-container {

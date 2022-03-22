@@ -191,7 +191,8 @@ nav li {
   padding-left: 1rem;
   font-family: 'Titillium Web', sans-serif;
   color: white;
-  background-color: #757b7a;
+  font-weight: bold;
+  background-color: rgba(117, 123, 122, 0.7);
   padding: 0.5rem 0;
   text-align: center;
 }
@@ -228,7 +229,7 @@ nav li {
 #people .image-item {
   display: flex;
   flex-flow: column;
-  background-color: #757b7a;
+  background-color: rgba(117, 123, 122, 0.5);
 }
 
 #people img {
@@ -239,7 +240,7 @@ nav li {
 
 .image-item .teammember-description {
   color: white;
-  background-color: #757b7a;
+  background-color: rgba(117, 123, 122, 0.5);
   width: 300px;
 }
 
